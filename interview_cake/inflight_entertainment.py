@@ -36,8 +36,7 @@ def test(actual, expected):
         print 'expected %s to equal expected %s' % (actual, expected)
 
 
-
-
+# Test first version
 test(choose_movies(10, [5, 5]), [0, 1])
 test(choose_movies(10, [7, 7]), [])
 
@@ -47,4 +46,13 @@ test(choose_movies(10, [5, 3, 7]), [1, 2])
 test(choose_movies(10, [7, 2, 1, 3]), [0, 3])
 test(choose_movies(20, [1, 10, 10, 3]), [1, 2])
 
+# Pythonic
+test(choose_movies_pythonic(10, [5, 5]),  True)
+test(choose_movies_pythonic(10, [7, 7]), False)
+
+test(choose_movies_pythonic(10, [3, 5, 7]), True)
+test(choose_movies_pythonic(10, [5, 3, 7]), True)
+
+test(choose_movies_pythonic(10, [7, 2, 1, 3]), True)
+test(choose_movies_pythonic(20, [1, 10, 10, 3]), True)
 

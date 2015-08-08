@@ -35,3 +35,8 @@ Note these are mostly consumer web centric viewpoints. We can just generally spi
 - This is a different mindset than I usually use. It takes a bit to context switch, but once that system is up and running, then I'm much more comfortable.
 - My suspicion is that this will hopefully improve my day to day work.
 - I still have so so so much to learn :)
+
+
+## Testing
+
+I also am writing a on the fly 'test harness' for now because often you don't get the luxury of using the tools you are used to in an interview
