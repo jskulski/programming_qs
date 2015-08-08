@@ -11,6 +11,7 @@ def determine_coins(target, denominations):
 
     return coins
 
+
 def find_shortest(target, denominations):
     possibilities = []
     while denominations:
@@ -25,8 +26,6 @@ def find_shortest(target, denominations):
     print shortest_possibility
 
 
-
-
 def test(target, denominations, expected):
     result = determine_coins(target, denominations)
 
@@ -38,6 +37,7 @@ def test(target, denominations, expected):
     else:
         print 'FAIL!!!'
         # assert False
+
 
 #
 # test(1, [1], [1])
@@ -55,4 +55,3 @@ def test(target, denominations, expected):
 # test(8, [6, 5, 3, 1], [5, 3])
 
 find_shortest(8, [6, 5, 3, 1])
-
